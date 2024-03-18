@@ -1,36 +1,84 @@
 *{
     background-color: #f5f4cc;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    /* outline:1px solid red; */
 }
 
 h1{
     color: #556a48;
     text-align: center;
-    font-size: 45px;
-    padding-bottom: 0%;
-    margin-bottom: 5%;
+    font-size: 70px;
     font-weight: 900;
+}
+.mainTitle{
+    width: 700px;
+    margin: 20px auto;
+    padding: 10px 10px;
+    background-color:rgb(222, 241, 134) ;
+
+    /* curves */
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    outline:2px solid green
 }
 
 h2{
     color: #388275;
     text-align: center;
     font-size: 40px;
-    padding-top: 0%;
-    margin-top: 5%;
     font-weight: 700;
 }
 
-.menu{
+.subheading{
+    width: 400px;
+    margin: 0px auto;
+    padding: 10px 10px;
+    background-color:rgb(231, 241, 185) ;
+    margin-bottom:40px;
+
+    /* curves */
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+
+    outline:1px solid rgb(152, 187, 150)
+}
+
+.foodMenu{
     text-align: center;
-    padding:0;
-    line-style:none;
-    font-size: 32px;
+    padding:0px;
+    list-style: none;
+    font-size: 40px;
+
+    width: 400px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 0px;
+
 }
 
 a{
     color:rgb(36, 96, 36);
-    font-style: italic
+    font-style: italic;
+    text-decoration: none;
+
+    display: block;
+    padding:10px;
+    width:200px;
+    margin:0 auto;
+    background-color: rgb(248, 255, 223);
+    margin-top:10px
+
+    /* curves */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    
 }
 
 a:hover {
@@ -38,9 +86,10 @@ a:hover {
 }
 
 a:visited {
-    color: rgb(237, 188, 237);
+    color: rgb(5, 156, 93);
 }
 
-.menu li{
-    padding-bottom: 15px;
+.foodMenu li{
+    padding: 10px;
+    margin: 10px;
 }
